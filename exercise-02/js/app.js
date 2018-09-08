@@ -1,7 +1,20 @@
 var app = angular.module('universityApp', []);
 
-app.controller('teacherCtrl', function(){
-    this.teacher = teacherData;
+app.controller('teacherCtrl', function($scope){
+    $scope.teacher = teacherData;
+    $scope.edit = {};
+
+    $scope.editTeacher = function(){
+        angular.copy($scope.teacher, $scope.edit);
+    }
+
+    $scope.save = function(){
+        angular.copy($scope.edit, $scope.teacher);
+    }
+
+    $scope.cancel = function(){
+        $scope.edit = {};
+    }
 });
 
 var teacherData = {
