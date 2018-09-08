@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="universityApp">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -7,12 +7,13 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/lib/angular.min.js"></script>
+    <script src="js/app.js"></script>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" ng-controller="teacherCtrl as t">
         <h1>Teacher</h1>
-        <h4>Teacher name</h4>
+        <h4>{{ t.teacher.name }}</h4>
         <hr>
 
         <div class="row">
@@ -20,7 +21,7 @@
             <div class="col-sm-3">
                 <section class="panel">
                     <div class="panel-body" align="center">
-                        <img src="" class="img-circle" alt="" width="150px" height="150px">
+                        <img src="{{ t.teacher.image }}" class="img-circle" alt="" width="150px" height="150px">
                     </div>
                 </section>
             </div>
@@ -29,10 +30,10 @@
             <div class="col-sm-9">
                 <section class="panel">
                     <div class="panel-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            {{ t.teacher.bio }}
                         <br>
                         <br>
-                        <strong>Age:</strong> 43 años
+                        <strong>Age:</strong> {{ t.teacher.age }} years old
                     </div>
                 </section>
             </div>
