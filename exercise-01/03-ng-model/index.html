@@ -41,6 +41,42 @@
 			<br>
 			<input ng-model="gender" type="radio" value="F"> Female
 		</p>
+
+		<hr>
+
+		<section>
+			<h2>Evaluation</h2>
+
+			<div>
+				<label>Full name:</label> <br>
+				<input type="text" ng-model="fullname" class="form-control" autofocus>
+			</div>
+
+			<div>
+				<label>Workplace:</label> <br>
+				<input type="text" ng-model="workplace" class="form-control">
+			</div>
+
+			<div>
+				<label>Salary in dollars:</label> <br>
+				<input type="text" ng-model="salary" class="form-control">
+			</div>
+
+			<hr>
+
+			<div>
+				<p>
+					<strong>Name:</strong> {{ fullname | uppercase }}
+				</p>
+				<p>
+					<strong>Workplace:</strong> {{ workplace | lowercase }}
+				</p>
+				<p>
+					<strong>Salary:</strong> {{ salary | currency:'$' }}
+				</p>
+			</div>
+
+		</section>
 	</div>
 </body>
 </html>
