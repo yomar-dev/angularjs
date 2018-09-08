@@ -10,9 +10,14 @@ app.controller('teacherCtrl', function($scope){
 
     $scope.save = function(){
         angular.copy($scope.edit, $scope.teacher);
+        $scope.clearFields();
     }
 
     $scope.cancel = function(){
+        $scope.edit = {};
+    }
+
+    $scope.clearFields = function(){
         $scope.edit = {};
     }
 });
