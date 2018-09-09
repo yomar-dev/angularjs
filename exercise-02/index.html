@@ -6,6 +6,7 @@
     <title>Exercise 02 - App, controllers and scope.</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <script src="js/lib/angular.min.js"></script>
     <script src="js/app.js"></script>
 </head>
@@ -21,7 +22,7 @@
             <div class="col-sm-3">
                 <section class="panel">
                     <div class="panel-body" align="center">
-                        <img ng-src="{{ teacher.image }}" class="img-circle" alt="" width="150px" height="150px">
+                        <img ng-src="{{ teacher.image }}" class="img-circle animated tada" alt="" width="150px" height="150px">
                     </div>
                 </section>
             </div>
@@ -40,7 +41,7 @@
             </div>
         </div>
 
-        <div class="row" ng-show="showForm">
+        <div class="row animated fadeIn" ng-show="showForm">
             <div class="col-sm-8">
                 <section class="panel">
                     <div class="panel-body">
