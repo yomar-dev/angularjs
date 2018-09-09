@@ -3,22 +3,21 @@ var app = angular.module('universityApp', []);
 app.controller('teacherCtrl', function($scope){
     $scope.teacher = teacherData;
     $scope.edit = {};
+    $scope.showForm = false;
 
     $scope.editTeacher = function(){
         angular.copy($scope.teacher, $scope.edit);
+        $scope.showForm = true;
     }
 
     $scope.save = function(){
         angular.copy($scope.edit, $scope.teacher);
-        $scope.clearFields();
+        $scope.showForm = false;
     }
 
     $scope.cancel = function(){
         $scope.edit = {};
-    }
-
-    $scope.clearFields = function(){
-        $scope.edit = {};
+        $scope.showForm = false;
     }
 });
 
