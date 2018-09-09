@@ -2,7 +2,7 @@
   "teachers": [
       {
         "id": 0,
-        "gender": "hombre",
+        "gender": "male",
         "name": "Kari",
         "lastname": "Carr",
         "telephone": "(826) 453-3497",
@@ -10,7 +10,7 @@
       },
       {
         "id": 1,
-        "gender": "mujer",
+        "gender": "female",
         "name": "Tameka",
         "lastname": "Gamble",
         "telephone": "(824) 438-2499",
@@ -18,7 +18,7 @@
       },
       {
         "id": 2,
-        "gender": "mujer",
+        "gender": "female",
         "name": "Charity",
         "lastname": "Austin",
         "telephone": "(817) 512-2258",
@@ -26,7 +26,7 @@
       },
       {
         "id": 3,
-        "gender": "mujer",
+        "gender": "female",
         "name": "Slater",
         "lastname": "Hunt",
         "telephone": "(842) 413-3023",
@@ -34,7 +34,7 @@
       },
       {
         "id": 4,
-        "gender": "hombre",
+        "gender": "male",
         "name": "Chen",
         "lastname": "Hanson",
         "telephone": "(966) 520-2696",
@@ -42,7 +42,7 @@
       },
       {
         "id": 5,
-        "gender": "hombre",
+        "gender": "male",
         "name": "Obrien",
         "lastname": "Davis",
         "telephone": "(996) 595-3896",
@@ -50,7 +50,7 @@
       },
       {
         "id": 6,
-        "gender": "hombre",
+        "gender": "male",
         "name": "Le",
         "lastname": "Haley",
         "telephone": "(967) 527-3286",
@@ -58,7 +58,7 @@
       },
       {
         "id": 7,
-        "gender": "hombre",
+        "gender": "male",
         "name": "Lester",
         "lastname": "Carney",
         "telephone": "(994) 465-3542",
@@ -66,7 +66,7 @@
       },
       {
         "id": 8,
-        "gender": "hombre",
+        "gender": "male",
         "name": "Rosario",
         "lastname": "Perry",
         "telephone": "(848) 499-2977",
@@ -74,7 +74,7 @@
       },
       {
         "id": 9,
-        "gender": "mujer",
+        "gender": "female",
         "name": "Marilyn",
         "lastname": "Huber",
         "telephone": "(982) 580-3235",
