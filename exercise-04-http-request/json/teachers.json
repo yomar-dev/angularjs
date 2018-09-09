@@ -1,0 +1,84 @@
+{
+  "teachers": [
+      {
+        "id": 0,
+        "gender": "hombre",
+        "name": "Kari",
+        "lastname": "Carr",
+        "telephone": "(826) 453-3497",
+        "cellphone": "(801) 9175-8136"
+      },
+      {
+        "id": 1,
+        "gender": "mujer",
+        "name": "Tameka",
+        "lastname": "Gamble",
+        "telephone": "(824) 438-2499",
+        "cellphone": "(801) 8595-8337"
+      },
+      {
+        "id": 2,
+        "gender": "mujer",
+        "name": "Charity",
+        "lastname": "Austin",
+        "telephone": "(817) 512-2258",
+        "cellphone": "(801) 9375-3830"
+      },
+      {
+        "id": 3,
+        "gender": "mujer",
+        "name": "Slater",
+        "lastname": "Hunt",
+        "telephone": "(842) 413-3023",
+        "cellphone": "(801) 9555-1729"
+      },
+      {
+        "id": 4,
+        "gender": "hombre",
+        "name": "Chen",
+        "lastname": "Hanson",
+        "telephone": "(966) 520-2696",
+        "cellphone": "(801) 9324-4423"
+      },
+      {
+        "id": 5,
+        "gender": "hombre",
+        "name": "Obrien",
+        "lastname": "Davis",
+        "telephone": "(996) 595-3896",
+        "cellphone": "(801) 8195-2732"
+      },
+      {
+        "id": 6,
+        "gender": "hombre",
+        "name": "Le",
+        "lastname": "Haley",
+        "telephone": "(967) 527-3286",
+        "cellphone": "(801) 8074-5225"
+      },
+      {
+        "id": 7,
+        "gender": "hombre",
+        "name": "Lester",
+        "lastname": "Carney",
+        "telephone": "(994) 465-3542",
+        "cellphone": "(801) 9044-7522"
+      },
+      {
+        "id": 8,
+        "gender": "hombre",
+        "name": "Rosario",
+        "lastname": "Perry",
+        "telephone": "(848) 499-2977",
+        "cellphone": "(801) 8495-0625"
+      },
+      {
+        "id": 9,
+        "gender": "mujer",
+        "name": "Marilyn",
+        "lastname": "Huber",
+        "telephone": "(982) 580-3235",
+        "cellphone": "(801) 8184-2624"
+      }
+    ]
+  }
