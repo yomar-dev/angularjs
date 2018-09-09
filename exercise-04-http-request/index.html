@@ -17,17 +17,7 @@
         <h4>Dynamic Data</h4>
         <hr>
 
-        <table class="table table-striped">
-            <tr>
-                <th>Name</th>
-                <th>Gender</th>
-            </tr>
-
-            <tr ng-repeat="teacher in teachers">
-                <td>{{ teacher.name }} {{ teacher.lastname }}</td>
-                <td>{{ teacher.gender }}</td>
-            </tr>
-        </table>
+        <div ng-include="tableTeachers"></div>
 
         <pre>{{ teachers | json }}</pre>
     </div>
